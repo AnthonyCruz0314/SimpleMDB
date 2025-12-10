@@ -1,6 +1,7 @@
 namespace Smdb.Api.Movies;
 
 using Shared.Http;
+
 public class MoviesRouter : HttpRouter
 {
     public MoviesRouter(MoviesController moviesController)
